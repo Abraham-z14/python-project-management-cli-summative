@@ -1,0 +1,51 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "name": "Alex",
+            "email": "alex@example.com",
+            "projects": [
+                {
+                    "id": 1,
+                    "title": "CLI Tool",
+                    "description": "Build project tracker",
+                    "due_date": "2026-12-01",
+                    "tasks": [
+                        {
+                            "id": 1,
+                            "title": "Implement persistence",
+                            "assigned_to": "Alex",
+                            "status": "pending",
+                            "contributors": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Jordan",
+            "email": "jordan@example.com",
+            "projects": [
+                {
+                    "id": 2,
+                    "title": "Inventory Dashboard",
+                    "description": "Build and test an internal inventory tracking dashboard",
+                    "due_date": "2026-12-20",
+                    "tasks": [
+                        {
+                            "id": 2,
+                            "title": "Build dashboard layout",
+                            "assigned_to": "Jordan",
+                            "status": "completed",
+                            "contributors": [
+                                "Alex",
+                                "Maya"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
